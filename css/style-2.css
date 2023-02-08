@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    /* 
+    text-align: center;
+    color: #fff;
+
+
+    
+    */
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #b3e5fc; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-responsive{
+    width: 90%;
+    height: 80vh;
+    /* background-color: #b3e5fc; */
+    background: -webkit-linear-gradient(left,#e2a85d, #ff9100);
+    padding: 20px 0 0 0;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+    border-radius: 10px;
+    /* align-items: center; */
+    background-color: blueviolet;
+}
+h1{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+table{
+    /* border-spacing: 5; */
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03);
+    border-radius: 10px;
+    margin: auto;
+}
+th,td{
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color: gray;
+}
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+td{
+    font-size: 13px;
+}
+.fa{
+    font-size: 18px;
+}
+.fa-edit{ color: #63c76a; }
+.fa-trash{ color: #ff0000; }
+a{ text-decoration: none; display: flex; justify-content: center; text-align: center;}
+.email-style{
+    font-size: 14px;
+    border: 2px solid black;
+    color: gray;
+    display: inline-block;
+    background: #f2f2f2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height: 30px;
+    padding: 0 14px;
+}
